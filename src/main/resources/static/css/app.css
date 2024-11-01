@@ -118,3 +118,13 @@ button:hover{
         height: 100px;
     }
 }
+.small-paragraph {
+    font-size: 0.5em; /* Küçük font boyutu */
+    margin-top: 10px; /* Üstten biraz boşluk */
+    width: 100%; /* Div genişliğiyle sınırlama */
+    height: 80px; /* Div yüksekliğiyle sınırlama */
+    overflow: auto; /* Taşan metni gizleme */
+    text-overflow: ellipsis; /* Taşan metin için "..." ekleme */
+    white-space: normal; /* Normal satır kaydırma */
+}
+
