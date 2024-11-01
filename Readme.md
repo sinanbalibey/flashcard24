@@ -88,7 +88,7 @@ Eğitim odaklı uygulama!
 - Cümle Üretme: Kullanıcı, oluşturduğu kelime setine yeni kelimeler eklediğinde, Gemini API'si sayesinde her kelime için ilgili bir İngilizce cümle oluşturulur. Bu, kelimenin hafızada kalmasına yardımcı olur.
 - Düzenleme ve Silme: Kullanıcılar, oluşturdukları kelime setlerini düzenleyebilir veya ihtiyaç duymadıkları setleri silebilirler. Silme işlemi onay gerektirir, böylece yanlışlıkla silme durumu önlenir.
 
-![123.PNG](123.png)
+![123.PNG]((https://github.com/sinanbalibey/flashcard24/blob/main/img/123.png))
 
 ### Projenin Çalıştırılması
 
