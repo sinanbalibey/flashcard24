@@ -11,7 +11,9 @@ Flashcard projesi, kullanıcıların hafıza tekniklerini kullanarak kelime ezbe
 Projede, Gemini API'si kullanılarak öğrenme odaklı bir uygulama geliştirilmesi amaçlanmıştır. Bu kapsamda, kullanıcıların yeni kelimeleri öğrenirken ezberleme konusunda fayda sağlaması hedeflenmiştir.
 
 Gemini AI sayesinde, kullanıcıların eklediği kelimelerle ilgili İngilizce cümleler oluşturularak, kelimelerin hafızada kalmasına destek olunmaktadır.
+
 ![diagram.png](https://github.com/sinanbalibey/flashcard24/blob/main/img/diagram2.PNG)
+
 ## 2.Proje Kuralları
 
 ### Yarışma Hakkında
