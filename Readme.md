@@ -109,7 +109,7 @@ services:
       SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/flashcard
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: 123456
-      GOOGLE_API_KEY: AIzaSyBThueUrdN1zziYhkx0oOdLP-msn4fgNL4
+      GOOGLE_API_KEY: YOUR-API-KEY
     depends_on:
       - db
     networks:
