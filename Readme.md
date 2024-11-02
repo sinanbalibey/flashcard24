@@ -88,7 +88,7 @@ Eğitim odaklı uygulama!
 - Cümle Üretme: Kullanıcı, oluşturduğu kelime setine yeni kelimeler eklediğinde, Gemini API'si sayesinde her kelime için ilgili bir İngilizce cümle oluşturulur. Bu, kelimenin hafızada kalmasına yardımcı olur.
 - Düzenleme ve Silme: Kullanıcılar, oluşturdukları kelime setlerini düzenleyebilir veya ihtiyaç duymadıkları setleri silebilirler. Silme işlemi onay gerektirir, böylece yanlışlıkla silme durumu önlenir.
 
-![123.PNG](123.png)
+![123.PNG](https://github.com/sinanbalibey/flashcard24/blob/main/img/123.png)
 
 ### Projenin Çalıştırılması
 
@@ -186,10 +186,10 @@ Flashcard projesi, kullanıcıların hafıza tekniklerini kullanarak kelime ezbe
 
 Farklı kelime setleri oluşturma ve bu setlerin karıştırılabilmesi gibi özellikler, öğrenme sürecini daha etkileşimli ve eğlenceli hale getirmektedir. Kullanıcılar, kendilerine uygun yöntemlerle çalışarak daha etkili bir öğrenme deneyimi elde edebilirler. Proje, eğitimde yenilikçi bir yaklaşım sunarak kullanıcıların kelime hazinelerini geliştirmelerine katkıda bulunmaktadır.
 
-![133.PNG](133.png)
+![133.PNG](https://github.com/sinanbalibey/flashcard24/blob/main/img/133.png)
 
-![13.PNG](13.png)
+![13.PNG](https://github.com/sinanbalibey/flashcard24/blob/main/img/13.png)
 
-![14.PNG](14.png)
+![14.PNG](https://github.com/sinanbalibey/flashcard24/blob/main/img/14.png)
 
-![15.PNG](15.png)
+![15.PNG](https://github.com/sinanbalibey/flashcard24/blob/main/img/133.png)
