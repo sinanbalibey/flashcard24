@@ -106,9 +106,11 @@ services:
       SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/flashcard
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: 123456
-      GOOGLE_API_KEY: private-api-key
+      GOOGLE_API_KEY: YOUR-API-KEY
     depends_on:
       - db
+    networks:
+      - flashcard_network
 
   db:
     image: mysql:8.0
@@ -118,9 +120,15 @@ services:
       MYSQL_DATABASE: flashcard
     volumes:
       - db_data:/var/lib/mysql
+    networks:
+      - flashcard_network
 
 volumes:
   db_data:
+
+networks:
+  flashcard_network:
+    driver: bridge
 ```
 
 “GOOGLE_API_KEY” değişkenini kendi API_KEY’inizle değiştirin.
