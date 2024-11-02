@@ -102,13 +102,14 @@ Bir dizinde “docker-compose.yml” isimli bir dosya oluşturun ve içine aşa�
 services:
   flashcard-app:
     image: sibacode/flashcard
+    restart: always
     ports:
       - "8080:8080"
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/flashcard
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: 123456
-      GOOGLE_API_KEY: YOUR-API-KEY
+      GOOGLE_API_KEY: AIzaSyBThueUrdN1zziYhkx0oOdLP-msn4fgNL4
     depends_on:
       - db
     networks:
@@ -117,6 +118,8 @@ services:
   db:
     image: mysql:8.0
     restart: always
+    ports:
+      - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: 123456
       MYSQL_DATABASE: flashcard
@@ -131,6 +134,7 @@ volumes:
 networks:
   flashcard_network:
     driver: bridge
+
 ```
 
 “GOOGLE_API_KEY” değişkenini kendi API_KEY’inizle değiştirin.
@@ -143,7 +147,7 @@ docker-compose up -d
 
 Gerekli indirmeleri yaptıktan sonra projeye [http://localhost:8080](http://localhost:8080/) adresinden erişebilirsiniz.
 
-İlgili video: [https://www.youtube.com/](https://www.youtube.com/)
+İlgili video: [https://www.youtube.com/](https://youtu.be/wAdcd5fnBMw)
 
 Not: Projede gemini-1.5-flash modeli kullanılmıştır.
 
