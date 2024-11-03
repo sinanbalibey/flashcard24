@@ -10,11 +10,11 @@ services:
       SPRING_DATASOURCE_PASSWORD: 123456
       GOOGLE_API_KEY: YOUR-API-KEY
     depends_on:
-      - db
+      - mysql
     networks:
       - flashcard_network
 
-  db:
+  mysql:
     image: mysql:8.0
     restart: always
     ports:
